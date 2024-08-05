@@ -21,3 +21,4 @@ config :logger, :console, format: "[$level] $message\n"
 
 config :phoenix, :stacktrace_depth, 20
 config :phoenix, :plug_init_mode, :runtime
+   elixir {Esbuild, :install_and_run, [:default, ~w(--sourcemap=inline --watch)]}
